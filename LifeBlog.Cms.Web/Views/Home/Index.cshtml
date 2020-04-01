@@ -1,0 +1,14 @@
+﻿@using LifeBlog.Cms.Common.Models.Entries;
+
+@model IEnumerable<Blog>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var blog in Model)
+{
+    <h1>@blog.Title</h1>
+    <h2>@blog.Subtitle</h2>
+    @Html.DisplayFor(m => blog.Content)
+}

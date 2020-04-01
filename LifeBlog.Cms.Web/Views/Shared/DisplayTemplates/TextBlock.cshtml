@@ -1,0 +1,9 @@
+@using Contentful.Core.Models
+@model LifeBlog.Cms.Common.Models.Entries.TextBlock
+
+@if (Model.Text != null)
+{
+    var renderer = new HtmlRenderer();
+    var html = await renderer.ToHtml(Model.Text);
+    @Html.Raw(html)
+}

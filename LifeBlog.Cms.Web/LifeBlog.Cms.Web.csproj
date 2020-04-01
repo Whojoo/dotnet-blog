@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LifeBlog.Cms.Common\LifeBlog.Cms.Common.csproj" />
+    <ProjectReference Include="..\LifeBlog.Cms.Services\LifeBlog.Cms.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="contentful.aspnetcore" Version="4.4.0" />
+    <PackageReference Include="HtmlSanitizer" Version="5.0.304" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
