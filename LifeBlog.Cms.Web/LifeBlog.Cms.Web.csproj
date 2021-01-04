@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="contentful.aspnetcore" Version="4.4.0" />
-    <PackageReference Include="HtmlSanitizer" Version="5.0.304" />
+    <PackageReference Include="HtmlSanitizer" Version="5.0.372" />
   </ItemGroup>
 
   <PropertyGroup>
